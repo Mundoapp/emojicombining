@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoji Combining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Emoji Combining</h1>
+    <div class="sliders">
+      <div class="slider-container">
+        <div id="emoji1-display" class="emoji-display">😀</div>
+        <input type="range" id="slider1" min="0" value="0" />
+      </div>
+      <div class="slider-container">
+        <div id="emoji2-display" class="emoji-display">😀</div>
+        <input type="range" id="slider2" min="0" value="1" />
+      </div>
+    </div>
+    <div id="result">
+      <img id="result-img" alt="Emoji combinado" />
+      <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
